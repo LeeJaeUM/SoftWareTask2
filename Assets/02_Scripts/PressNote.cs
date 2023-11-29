@@ -24,13 +24,19 @@ public class PressNote : MonoBehaviour
             noteReleaseStartTime += Time.deltaTime;
         }
         // 노트를 누를 수 있는 상태에서 마우스 왼쪽 버튼이 떼어졌을 때
-        if (canPressNote && Input.GetMouseButtonDown(0))
+        if (canPressNote && (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space)) )
         {
             GameManager.Instance.milisec = noteReleaseStartTime;
             //releaseDuration = Time.time - noteReleaseStartTime;
-            // 노트를 떼는데 0.1 ~ 0.4초 이내면 "적절한 타이밍"으로 간주 releaseDuration > 0.1f && 
-            // 0.8초로 변경
-            if (noteReleaseStartTime <= 0.5f)
+            // 노트를 떼는데 0.1 ~ 0.4초 이내면 "적절한 타이밍"으로 간주 
+            if(noteReleaseStartTime <= 0.07f)
+            {
+                //너무 빠릅니다!
+                Debug.LogWarning("너무 빠릅니다!");
+                anim.SetTrigger("miss");
+                GameManager.Instance.missCount++;
+            }
+            if (noteReleaseStartTime > 0.07f && noteReleaseStartTime <= 0.45f)
             {
                 // 적절한 타이밍에 노트를 뗐을 때의 처리
                 Debug.LogWarning("적절한 타이밍으로 노트를 뗐습니다!");
@@ -38,7 +44,7 @@ public class PressNote : MonoBehaviour
                 GameManager.Instance.goodCount++;
 
             }
-            if (noteReleaseStartTime > 0.5f)
+            if (noteReleaseStartTime > 0.45f)
             {
                 // 너무 느리게 뗏을때
                 Debug.LogWarning("-------- 느리게 노트를 뜨에엇스읍니드아.");

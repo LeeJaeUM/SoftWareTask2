@@ -11,36 +11,36 @@ public class AudioEventTrigger : MonoBehaviour
 
         // 8초 후에 YourFunctionToInvoke() 함수 호출
         StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 7.81f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 13.293f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 17.674f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 22.581f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 24.429f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 27.65f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 33.199f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 37.517f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 42.413f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 44.193f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 51.388f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 53.216f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 55.015f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 56.682f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 58.628f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 60.451f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 62.255f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 63.456f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 65.719f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 69.818f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 73.019f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 76.651f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 77.916f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 82.147f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 83.916f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 86.244f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 87.577f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 89.421f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 91.224f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 93.023f));
-        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 96.866f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 13.193f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 17.574f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 22.481f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 24.329f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 27.55f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 33.099f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 37.417f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 42.313f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 44.093f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 51.288f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 53.116f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 54.915f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 56.582f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 58.528f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 60.351f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 62.155f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 63.356f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 65.619f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 69.718f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 72.919f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 76.551f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 77.816f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 82.047f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 83.816f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 86.144f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 87.477f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 89.321f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 91.124f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 92.923f));
+        StartCoroutine(InvokeFunctionAfterDelay(YourFunctionToInvoke, 96.766f));
     }
 
     IEnumerator InvokeFunctionAfterDelay(System.Action functionToInvoke, float delay)
