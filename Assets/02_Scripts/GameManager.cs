@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,8 +10,14 @@ public class GameManager : MonoBehaviour
 
     public string mainGameSceneName = "MainGame";
     public string titleSceneName = "Title";
-    public bool gameEnd = false; // gameEnd 변수 추가
+    public bool gameEnd = false;
+    public int goodCount = 0;
     public int missCount = 0;
+    public float milisec = 0;
+
+    public Text missCountText; // Reference to the Text component for missCount
+    public Text goodCountText;
+    public Text milisecText;
 
     public static GameManager Instance
     {
@@ -40,13 +47,34 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // TODO: 게임 시작 시 초기화할 내용이 있다면 여기에 추가하세요.
+        // Find the Text component in the scene
+        missCountText = GameObject.Find("MissCountText").GetComponent<Text>();
+        goodCountText = GameObject.Find("GoodCountText").GetComponent<Text>();
+        milisecText = GameObject.Find("milisecCountText").GetComponent<Text>();
+    }
+
+    void Update()
+    {
+        // Update the missCountText in real-time
+        if (missCountText != null)
+        {
+            missCountText.text = "Miss Count: " + missCount;
+        }
+        if (goodCountText != null)
+        {
+            goodCountText.text = "Good Count: " + goodCount;
+        }
+        if (milisecText != null)
+        {
+            milisecText.text = "JustTime : \n" + milisec;
+        }
     }
 
     public void OnPlayButtonClicked()
     {
         SceneManager.LoadScene(mainGameSceneName);
     }
+
     public void OnTitleButtonClicked()
     {
         SceneManager.LoadScene(titleSceneName);
@@ -61,7 +89,6 @@ public class GameManager : MonoBehaviour
 #endif
     }
 
-    // 게임 종료 함수
     public void EndGame()
     {
         gameEnd = true;
