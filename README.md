@@ -27,3 +27,13 @@
 <p>게임을 시작하면 타이밍에 맞게 화면을 마우스로 누르세요.</p>
 <p>알맞은 타이밍에 눌렀는 지 텍스트로 표현합니다.</p>
 
+
+<!-- 스크립트 설명 -->
+<p>AudioEventTrigger.cs : 음악의 시간에 맞춰 노트 발생 시간을 정합니다.</p>
+<p>BackgroundMusic.cs : 음악을 플레이합니다.</p>
+<p>GameEndUI : 결과화면의 ui를 관리합니다 </p>
+<p>GameManager  : 게임 전체를 관리하며 씬 이동과 게임종료 인식을 맡습니다.</p>
+<p>GameTimer  : 테스트버튼을 눌러서 노트 발생시간을 텍스트 파일로 작성합니다..</p>
+<p>PressNote  : 마우스 클릭을 인식하며 노트 인식 타이밍을 결정하고 점수를 올립니다.</p>
+<p>TextController  : 게임 시작 시 게임 시작을 알리는 text UI를 관리합니다.</p>
+<p>UIManager  : 점수 text를 관리합니다.</p>
