@@ -16,7 +16,7 @@
 <!-- 프로젝트 이미지 -->
 
 <h2>프로젝트 이미지</h2>
-<img src="[https://user-images.githubusercontent.com/54128945/171683279-6f9ad580-4f0c-11eb-9c4e-285a3a14f684.png](https://github.com/LeeJaeUM/SoftWareTask2/issues/1#issue-2040741843)" alt="타이틀화면">
+<img src="https://github.com/LeeJaeUM/SoftWareTask2/assets/106094800/7957f3a6-484d-4346-a125-a2f20ac22482" alt="타이틀화면">
 
 
 https://github.com/LeeJaeUM/SoftWareTask2/issues/1#issue-2040741843
