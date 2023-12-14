@@ -29,6 +29,7 @@
 
 
 <!-- 스크립트 설명 -->
+<h3>스크립트 설명</h3>
 <p>AudioEventTrigger.cs : 음악의 시간에 맞춰 노트 발생 시간을 정합니다.</p>
 <p>BackgroundMusic.cs : 음악을 플레이합니다.</p>
 <p>GameEndUI : 결과화면의 ui를 관리합니다 </p>
