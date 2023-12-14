@@ -20,7 +20,7 @@
 <img src="https://github.com/LeeJaeUM/SoftWareTask2/assets/106094800/155de030-f779-4570-86c2-ba99eb1e7a9a" alt="인게임">
 
 <h3>결과화면 이미지</h3>
-<img src="https://github.com/LeeJaeUM/SoftWareTask2/assets/106094800/106094800/b2cbc246-c59f-4f13-a778-6422ae033f99" alt="결과화면">
+<img src="https://github.com/LeeJaeUM/SoftWareTask2/assets/106094800/41a4df79-e839-4405-8ff0-052c5e53d456" alt="결과화면">
 
 
 <p>타이틀 화면에서 Start를 선택하거나 Exit를 눌러서 게임을 시작하거나 종료하세요.</p>
