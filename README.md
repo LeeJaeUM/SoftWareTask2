@@ -17,9 +17,12 @@
 
 <h2>프로젝트 이미지</h2>
 <img src="https://github.com/LeeJaeUM/SoftWareTask2/assets/106094800/7957f3a6-484d-4346-a125-a2f20ac22482" alt="타이틀화면">
+<img src="https://github.com/LeeJaeUM/SoftWareTask2/assets/106094800/155de030-f779-4570-86c2-ba99eb1e7a9a" alt="인게임">
+
+<h3>결과화면 이미지</h3>
+<img src="https://github.com/LeeJaeUM/SoftWareTask2/assets/106094800/106094800/b2cbc246-c59f-4f13-a778-6422ae033f99" alt="결과화면">
 
 
-https://github.com/LeeJaeUM/SoftWareTask2/issues/1#issue-2040741843
 <p>타이틀 화면에서 Start를 선택하거나 Exit를 눌러서 게임을 시작하거나 종료하세요.</p>
 <p>게임을 시작하면 타이밍에 맞게 화면을 마우스로 누르세요.</p>
 <p>알맞은 타이밍에 눌렀는 지 텍스트로 표현합니다.</p>
